@@ -14,7 +14,7 @@ const data = fetch(API)
     console.log("error: "+err);
 });
 
-//Fazendo requisições ussando o axios_
+//Fazendo requisições usando o axios_
 const axios = require("axios");
 const CEPtwo = 55805000;
 const APItwo = `https://viacep.com.br/ws/${CEPtwo}/json`;
